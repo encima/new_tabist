@@ -20,3 +20,10 @@ Well, with the use of these friends:
 ## Notes
 
 This uses the `todoist-api-ts` package and the root URL for todoist is wrong. A PR has been opened but, if you feel some weird urge to run this, you will need to run `npm i` and then replace the URL in `dist/TodoistApiREST.js`.
+
+## TODO
+
+* [ ] Load task lists from browser storage
+* [ ] Load API key for user from storage
+* [ ] Create settings page
+* [ ] Complete build steps for stimulus to a single `bundle.js` file
