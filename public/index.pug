@@ -1,0 +1,19 @@
+doctype html
+html(lang='en')
+  head
+    title NewTabist
+    script(src='../src/index.ts')
+    style(type='text/css').
+      footer { text-align: center; }
+  body
+    .ui.container
+      div(data-controller="hello")
+        p(data-action="click->hello#newQuote" data-target="quote") Do it, Do it now!
+      div(data-controller="todo" data-target="lists")
+        h1 Tasks
+        - var lists = [{'filter': '(overdue | today | no date) & ##Work'}];
+        each list in lists
+          ul(data-controller="todo-list" data-target="todo-list.list" data-json=list)
+        
+
+

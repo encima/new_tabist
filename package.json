@@ -1,0 +1,24 @@
+{
+  "name": "newtabist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel dist/index.html",
+    "dev": "parcel public/index.pug"
+  },
+  "author": "encima",
+  "license": "MIT",
+  "dependencies": {
+    "config.ts": "^1.0.0",
+    "gulp-pug": "^4.0.1",
+    "parcel": "^1.12.3",
+    "semantic-ui": "^2.4.2",
+    "stimulus": "^1.1.1",
+    "todoist-api-ts": "^1.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  }
+}

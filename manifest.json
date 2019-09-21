@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "NewTabist",
+    "version": "0.1",
+    "offline_enabled": true,
+    "chrome_url_overrides": {
+        "newtab": "dist/index.html"
+    },
+    "background": {
+        "persistent": false,
+        "scripts": [
+            "tabist.js"
+        ]
+    },
+    "options_ui": {
+        "page": "dist/options.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "applications": {
+        "gecko": {
+            "id": "encima@gmail.com"
+        }
+    }
+}
